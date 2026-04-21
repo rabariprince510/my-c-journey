@@ -1,4 +1,5 @@
- 
+git commands:
+
  1. Git inilization
   
     git init 

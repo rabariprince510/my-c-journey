@@ -1,5 +1,10 @@
+<<<<<<< HEAD
  git commands:
  
+=======
+git commands:
+
+>>>>>>> bc241aa9011067b076003fc82d859bae900e7f3c
  1. Git inilization
   
     git init 

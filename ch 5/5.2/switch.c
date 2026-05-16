@@ -492,4 +492,105 @@ main()
 	    printf("\n\n your choice in invalid \n\n");
 	    	
 	}
+	
+	printf("\n\n Press 5 for Drinks \n\n");
+	printf("\n\n Press 6 for Popcorn \n\n");
+	printf("\n\n Press 7 for snacks \n\n");
+	
+	int num;
+	char ch;
+	
+	printf("\n\n what you want: ");
+	scanf("%d",&num);
+	
+	switch(num)
+	{
+		case 5:
+			printf("\n\n You prefer Drinks \n\n");
+			
+			printf("\n\n enter 'E' for coca cola \n\n");
+			printf("\n\n enter 'F' for thumps up \n\n");
+			printf("\n\n enter 'G' for sprite \n\n");
+			
+			printf("\n\n Tell your preference: ");
+			scanf(" %c",&ch);
+			
+			switch(ch)
+			{
+				case 'E':
+			    case 'e':
+				    printf("Your choice is coca cola.");
+			    	break;
+				case 'F':
+				case 'f':
+				    printf("Your choice is thumps up.");
+					break;
+			    case 'G':
+				case 'g':
+				    printf("Your choice is sprite.");
+					break;
+				default:
+				    printf("Your choice is invalid.");
+			}
+		break;
+		case 6:
+			printf("\n\n You prefer Popcorn. \n\n");
+			
+			printf("\n\n enter 'E' for spicy Popcorn. \n\n");
+			printf("\n\n enter 'F' for masala Popcorn. \n\n");
+			printf("\n\n enter 'G' for manchurian Popcorn. \n\n");
+			
+			printf("Tell your preference: ");
+			scanf(" %c",&ch);
+			
+			switch(ch)
+			{
+				case 'E':
+			    case 'e':
+				    printf("Your choice is spicy Popcorn.");
+			    	break;
+				case 'F':
+				case 'f':
+				    printf("Your choice is masala Popcorn.");
+					break;
+			    case 'G':
+				case 'g':
+				    printf("Your choice is manchurian Popcorn.");
+					break;
+				default:
+				    printf("Your choice is invalid.");
+			}
+	    break;
+	   	case 7:
+			printf("\n\n You prefer snacks. \n\n");
+			
+			printf("\n\n enter 'E' for sandwich \n\n");
+			printf("\n\n enter 'F' for burger \n\n");
+			printf("\n\n enter 'G' for pizza \n\n");
+			
+			printf("Tell your preference: ");
+			scanf(" %c",&ch);
+			
+			switch(ch)
+			{
+				case 'E':
+			    case 'e':
+				    printf("Your choice is sandwich.");
+			    	break;
+				case 'F':
+				case 'f':
+				    printf("Your choice is burger.");
+					break;
+			    case 'G':
+				case 'g':
+				    printf("Your choice is pizza.");
+					break;
+				default:
+				    printf("Your choice is invalid.");
+			} 
+		break;
+		default:
+		     printf("\n\n your choice is invalid. \n\n");		
+	}
+
 }
